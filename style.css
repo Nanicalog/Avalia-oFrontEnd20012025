@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #000000;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #948531;
+    /* Cor primária */
+    color: #000000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #e40000;
+    /* Efeito ao passar o mouse */
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.hero .text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.hero .buttons {
+    margin-top: 1rem;
+}
+
+.hero .btn {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.hero .btn.primary {
+    background: #948531;
+    /* Cor primária */
+    color: #fff;
+}
+
+.hero .btn.secondary {
+    background: transparent;
+    color: BF8034;
+    /* Cor primária */
+    border: 1px solid #BF8034;
+}
+
+.hero .image img {
+    max-width: 70%;
+    height: auto;
+   
+}
+
+/* Steps Section */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #948531;
+    color: #fff;
+}
